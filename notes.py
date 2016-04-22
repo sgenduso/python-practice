@@ -19,3 +19,9 @@ print spam()
 """Multi
    Line
    Comments"""
+
+# Exponents
+eight = 2 ** 3
+
+# Modulo
+one = 5 % 2
