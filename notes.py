@@ -25,3 +25,11 @@ eight = 2 ** 3
 
 # Modulo
 one = 5 % 2
+
+# Methods that use dot notation only work with strings.
+"PARROT".lower()
+"parrot".upper()
+
+# On the other hand, len() and str() can work on other data types.
+len("parrot")
+str(1991)
