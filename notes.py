@@ -34,6 +34,8 @@ one = 5 % 2
 len("parrot")
 str(1991)
 
+# Boolean operators 
+
 """
 Boolean Operators
 ------------------------
@@ -58,3 +60,4 @@ or is evaluated last.
 
 # Conditionals
 # elif == 'else if'
+
