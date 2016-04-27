@@ -8,6 +8,9 @@ print parrot.lower()
 # uppercase
 print parrot.upper()
 
+# check if string is all alphabetic and there is at least one character
+print parrot.isalpha()
+
 # convert to string
 pi = 3.14
 print str(pi)
