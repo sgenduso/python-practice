@@ -1,3 +1,7 @@
+# not is evaluated first;
+# and is evaluated next;
+# or is evaluated last.
+
 # Set bool_one equal to the result of False or not True and True
 bool_one = False
 

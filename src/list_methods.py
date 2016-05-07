@@ -13,7 +13,8 @@ list_length = len(park)
 print "There are %d items in the park." % (list_length)
 print park
 
-# slice: We start at the index before the colon and continue up to but not including the index after the colon.
+# slice: We start at the index before the colon and continue
+# up to but not including the index after the colon.
 suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
 
 first  = suitcase[0:2]  # The first and second items (index zero and one)
