@@ -1,6 +1,5 @@
 park = []
 park.append("golden")
-
 park.append("husky")
 park.append("shepherd")
 park.append("lab")
@@ -25,3 +24,11 @@ animals = "catdogfrog"
 cat  = animals[:3]   # The first three characters of animals
 dog  = animals[3:6]  # The fourth through sixth characters
 frog = animals [6:]  # From the seventh character to the end
+
+# indexing and inserting
+animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+duck_index = animals.index('duck')   # Use index() to find "duck"
+
+animals.insert(duck_index, 'cobra')
+
+print animals # Observe what prints after the insert operation
