@@ -16,3 +16,16 @@ tyler = {
     "quizzes": [0.0, 75.0, 78.0],
     "tests": [100.0, 100.0]
 }
+
+students = [lloyd, alice, tyler]
+
+for student in students:
+    print student['name']
+    print student['homework']
+    print student['quizzes']
+    print student['tests']
+
+def average(numbers):
+    total = sum(numbers)
+    total = float(total)
+    return total/len(numbers)
