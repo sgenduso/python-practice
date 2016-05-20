@@ -29,3 +29,9 @@ def average(numbers):
     total = sum(numbers)
     total = float(total)
     return total/len(numbers)
+
+def get_average(student):
+    homework = average(student['homework'])
+    quizzes = average(student['quizzes'])
+    tests = average(student['tests'])
+    return (.1 * homework) + (.3 * quizzes) + (.6 * tests)
