@@ -35,3 +35,17 @@ def get_average(student):
     quizzes = average(student['quizzes'])
     tests = average(student['tests'])
     return (.1 * homework) + (.3 * quizzes) + (.6 * tests)
+
+def get_letter_grade(score):
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else:
+        return "F"
+
+get_letter_grade(get_average(lloyd))
