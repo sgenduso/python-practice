@@ -31,3 +31,17 @@ duck_index = animals.index('duck')   # Use index() to find "duck"
 animals.insert(duck_index, 'cobra')
 animals.remove('aardvark')
 print animals # Observe what prints after the insert operation
+
+# ways to remove elements from lists
+# pop(index) -- removes element at given index and returns it
+# remove(item) -- removes item if it finds it
+# del(arr[i]) -- removes element but doesn't return it
+n = [1, 3, 5]
+def resetN:
+    n = [1, 3, 5]
+
+n.pop(1) # removes and returns 3
+resetN()
+n.remove(1) # removes 1 (element at index 0)
+resetN()
+del(n[1]) # removes 3 but does not return it 
