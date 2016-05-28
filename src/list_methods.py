@@ -46,6 +46,10 @@ n.remove(1) # removes 1 (element at index 0)
 resetN()
 del(n[1]) # removes 3 but does not return it
 
+# for loops without indeces
+for item in list:
+    print item
+
 # for loops with indeces
 def print_list(x):
     for i in range(0, len(x)):
